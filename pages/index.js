@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Header from '../components/Header'
 import Navbar from '../components/Navbar'
+import Results from '../components/Results'
 
 
 
@@ -18,6 +19,8 @@ export default function Home() {
 
       {/* Nav */}
       <Navbar />
+
+      <Results />
 
     </div>
   )
