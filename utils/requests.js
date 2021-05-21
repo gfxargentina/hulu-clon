@@ -2,59 +2,44 @@ const API_KEY = process.env.API_KEY;
 
 export default {
     fetchTrending: {
-        title: 'Trending',
+        title: 'Tendencias',
         url: `/trending/all/week?api_key=${API_KEY}&language=es-ES`,
     },
     fetchTopRated: {
-        title: 'Top Rated',
+        title: 'Top',
         url: `/movie/top_rated?api_key=${API_KEY}&language=es-ES`,
     },
     fetchActionMovies: {
-        title: 'Action',
-        url: `/discover/movie?api_key=${API_KEY}&with_genres=28`,
+        title: 'Acción',
+        url: `/discover/movie?api_key=${API_KEY}&with_genres=28&language=es-ES`,
     },
     fetchComedyMovies: {
-        title: 'Comedy',
-        url: `/discover/movie?api_key=${API_KEY}&with_genres=35`,
+        title: 'Comedia',
+        url: `/discover/movie?api_key=${API_KEY}&with_genres=35&language=es-ES`,
     },
     fetchHorrorMovies: {
-        title: 'Horror',
-        url: `/discover/movie?api_key=${API_KEY}&with_genres=27`,
+        title: 'Terror',
+        url: `/discover/movie?api_key=${API_KEY}&with_genres=27&language=es-ES`,
     },
     fetchRomanceMovies: {
         title: 'Romance',
-        url: `/discover/movie?api_key=${API_KEY}&with_genres=10704`,
+        url: `/discover/movie?api_key=${API_KEY}&with_genres=10749&language=es-ES`,
     },
     fetchMysteryMovies: {
-        title: 'Mystery',
-        url: `/discover/movie?api_key=${API_KEY}&with_genres=9648`,
+        title: 'Misterio',
+        url: `/discover/movie?api_key=${API_KEY}&with_genres=9648&language=es-ES`,
     },
-    fetchSuspenseMovies: {
-        title: 'Supense',
-        url: `/discover/movie?api_key=${API_KEY}&with_genres=9648`,
+    fetchDocumentaryMovies: {
+        title: 'Documentales',
+        url: `/discover/movie?api_key=${API_KEY}&with_genres=99&language=es-ES`,
     },
-    fetch45Movies: {
-        title: 'Mystery',
-        url: `/discover/movie?api_key=${API_KEY}&with_genres=9648`,
+    fetchDramaMovies: {
+        title: 'Drama',
+        url: `/discover/movie?api_key=${API_KEY}&with_genres=18&language=es-ES`,
     },
-    fetch12MysteryMovies: {
-        title: 'Mystery',
-        url: `/discover/movie?api_key=${API_KEY}&with_genres=9648`,
+    fetchScifiMovies: {
+        title: 'Ciencia Ficcion',
+        url: `/discover/movie?api_key=${API_KEY}&with_genres=878&language=es-ES`,
     },
-    fetch458MysteryMovies: {
-        title: 'Mystery',
-        url: `/discover/movie?api_key=${API_KEY}&with_genres=9648`,
-    },
-    fetchMys7894teryMovies: {
-        title: 'Mystery',
-        url: `/discover/movie?api_key=${API_KEY}&with_genres=9648`,
-    },
-    fetchMysgf7894teryMovies: {
-        title: 'Mystery',
-        url: `/discover/movie?api_key=${API_KEY}&with_genres=9648`,
-    },
-    fetchMysty7894teryMovies: {
-        title: 'Mystery',
-        url: `/discover/movie?api_key=${API_KEY}&with_genres=9648`,
-    },
+   
 }
